@@ -131,8 +131,8 @@ header li a:hover {
 
 #button_banner {
   position: absolute;
-  bottom: 120px;
-  left: 154px;
+  bottom: 16vh;
+  left: 10vw;
   z-index: 5;
 }
 
@@ -156,8 +156,11 @@ div #button_banner a:hover {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .text {
-  text-align: center;
   font-size: 17px;
 }
 
@@ -193,4 +196,30 @@ div #button_banner a:hover {
 
 hr {
   width: 100%
+}
+
+
+.col_big {
+  float: left;
+  width: 50%;
+  padding: 10px 40px;
+}
+
+#big {
+  height: 400px;
+}
+
+.col_text h1 {
+  text-align: left;
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+.col_text p {
+  margin-bottom: 20px;
+}
+
+.col_text a {
+  color: #0000EE;
+  text-decoration: underline;
 }
