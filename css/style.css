@@ -16,6 +16,10 @@
   margin: 0 auto;
 }
 
+.relative {
+  position: relative;
+}
+
 .left {
   float: left;
 }
@@ -46,7 +50,7 @@ li {
   margin-right: 2%;
 }
 
-li a {
+a {
   display: inline-block;
   color: white;
   text-decoration: none;
@@ -62,13 +66,24 @@ header li a:hover {
   color: darkorange;
 }
 
-.button {
-  font-size: 10px;
-  margin-left: 2%;
-  padding: 10px 15px;
+#login {
   border: 1px solid white;
+}
+
+.button {
   border-radius: 15px;
   color: white;
+}
+
+.small {
+  margin-left: 2%;
+  font-size: 10px;
+  padding: 10px 15px;
+}
+
+.big  {
+  font-size: 15px;
+  padding: 20px 30px;
 }
 
 .button a {
@@ -80,6 +95,43 @@ header li a:hover {
   background-color: darkgreen;
 }
 
+.banner {
+  height: 500px
+}
+
+.img {
+  width: 65%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 #banner {
-  width: 70vw;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner_text {
+  width: 500px;
+  font-size: 25px;
+  line-height: 500px;
+  z-index: 2;
+  color: white;
+}
+
+.banner_text h1 {
+  line-height: normal;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#button_banner {
+  position: absolute;
+  bottom: 120px;
+  left: 154px;
+  z-index: 5;
+}
+
+div #button_banner a:hover {
+  color: darkorange;
 }
