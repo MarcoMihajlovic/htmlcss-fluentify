@@ -16,6 +16,10 @@
   margin: 0 auto;
 }
 
+.margin {
+  margin-bottom: 40px;
+}
+
 .relative {
   position: relative;
 }
@@ -144,7 +148,7 @@ div #button_banner a:hover {
 }
 
 #green_title {
-  font-size: 25px;
+  font-size: 27px;
   color: forestgreen;
 }
 
@@ -182,7 +186,11 @@ div #button_banner a:hover {
   text-align: center;
 }
 
-hr {
+#special {
   margin: 20px auto;
   width: 50%;
+}
+
+hr {
+  width: 100%
 }
