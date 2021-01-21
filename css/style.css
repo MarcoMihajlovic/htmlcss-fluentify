@@ -135,3 +135,17 @@ header li a:hover {
 div #button_banner a:hover {
   color: darkorange;
 }
+
+#main_head {
+  background-color: lightgrey;
+  height: 150px;
+  padding: 40px 0;
+}
+
+.text {
+  text-align: center;
+}
+
+.grey {
+  color: dimgray;
+}
